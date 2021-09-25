@@ -167,7 +167,19 @@ header {
 /* Заключение */
 
 .container.b-color {
-  background-color: #f5f4fa;
+  background-color: rgb(245, 244, 250);
+}
+.container.b-conclusion {
+  background-image: linear-gradient(
+      rgba(245, 244, 250, 0.4),
+      rgba(245, 244, 250, 0.4)
+    ),
+    url("../images/background.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.conclusion-text {
+  margin-right: 550px;
 }
 
 /* SVG */
