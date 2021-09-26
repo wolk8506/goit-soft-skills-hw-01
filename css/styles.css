@@ -79,7 +79,7 @@ header {
   color: var(--accent-color);
 }
 .logo::before {
-  content: " ";
+  content: ' ';
   width: 60px;
   height: 60px;
   background-image: url(.././images/f3.png);
@@ -129,7 +129,7 @@ header {
   border: none;
   background-color: transparent;
 
-  background-image: url("../images/top.png");
+  background-image: url('../images/top.png');
   background-size: contain;
 
   cursor: pointer;
@@ -174,7 +174,7 @@ header {
       rgba(245, 244, 250, 0.4),
       rgba(245, 244, 250, 0.4)
     ),
-    url("../images/background.png");
+    url('../images/background.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
