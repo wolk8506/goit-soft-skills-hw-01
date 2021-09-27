@@ -114,26 +114,25 @@ header {
 
 /* ************************************************************************************** */
 /* Для страницы Book */
-
+/* Кнопка вверх */
 .topbutton {
   position: fixed;
   right: 50px;
   bottom: 180px;
 
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 
   margin: 0;
   padding: 0;
-  border: none;
-  background-color: transparent;
 
-  background-image: url('../images/top.png');
+  background-image: url('../images/top.svg');
   background-size: contain;
 
   cursor: pointer;
 }
+
 /* О книге */
 .book-discription {
   display: flex;
