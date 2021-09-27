@@ -230,17 +230,16 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
-/* ************************************************************************ */
+
 .list.case-list > li {
   padding-right: 30px;
 }
 .list.case-list > li:nth-child(4n) {
   padding-right: 0px;
 }
-/* .list.case-list > li:nth-last-child(-n + 4) {
-  padding-right: 0px;
-} */
 
+/* **************************************************************** */
+/* Для страницы Портфолио */
 /* Наша команда */
 .command {
   text-align: center;
@@ -270,38 +269,25 @@ header {
   display: inline-block;
   margin-bottom: 16px;
 }
-
-/* **************************************************************** */
-/* Для страницы Портфолио */
-/* Кнопки */
 /* footer */
 footer {
   background-color: #2f303a;
 }
 .container.footer {
-  display: flex;
   padding-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 address {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
-  margin-bottom: 9px;
 }
 .logo.footer {
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .link.bottom {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-}
-footer ul li + li {
-  display: inline-block;
-  margin-top: 9px;
-}
-footer ul {
-  display: inline-block;
-  margin-bottom: 60px;
 }
